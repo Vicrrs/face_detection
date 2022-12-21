@@ -1,6 +1,6 @@
 import cv2 as cv
 
-img = cv.imread('pessoas.jpg')
+img = cv.imread('imgens.jpg')
 
 classificador = cv.CascadeClassifier('haarcascade_frontalface_default.xml')
 

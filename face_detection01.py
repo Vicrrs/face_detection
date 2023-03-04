@@ -1,8 +1,8 @@
 import cv2 as cv
 
-img = cv.imread('imgens.jpg')
+img = cv.imread(r'imagens\img2.jpg')
 
-classificador = cv.CascadeClassifier('haarcascade_frontalface_default.xml')
+classificador = cv.CascadeClassifier(r'classificadores\haarcascade_frontalface_default.xml')
 
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 
